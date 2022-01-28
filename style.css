@@ -3,6 +3,22 @@ a {
     color: green;
     font-size: 30px;
 }
+
 a:hover {
     color: lime;
+}
+
+.container {
+    display: inline-block;
+}
+
+img {
+    width: 300px;
+    margin: 30px;
+    transition: 0.5s;
+}
+
+img:hover {
+    width: 400px;
+    margin: 0px;
 }
